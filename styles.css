@@ -1,0 +1,115 @@
+body{
+  background-color:hsl(216, 12%, 8%);
+}
+
+.card{
+  width: 400px;
+  height: 400px;
+  background-color: hsl(215deg 20% 16%);
+  border-radius: 20px;
+  justify-content: center;
+  margin: auto;
+  margin-top: 100px;
+}
+
+
+p,h2{
+  font-family: 'Overpass', sans-serif;
+  color:hsl(0, 0%, 100%);
+}
+
+p{
+  color:hsl(216, 12%, 54%);
+}
+
+.text{
+  margin: auto;
+  width: 100%;
+
+}
+
+.star{
+   background-color: hsl(210deg 19% 18%);
+   border-style: none;
+   width: 40px;
+   height: 40px;
+   display: grid;
+   place-items: center;
+   border-radius: 60px;
+   margin-bottom: 30px;
+
+}
+
+.btn{
+  border-radius: 50px;
+  color: hsl(216, 12%, 54%);
+  border-color: hsl(210deg 19% 18%);
+  background-color:hsl(210deg 19% 18%);
+  width: 50px;
+  height: 50px;
+
+
+}
+
+.btn{
+  --bs-btn-hover-color: hsl(0, 0%, 100%);
+  --bs-btn-hover-bg: hsl(25, 97%, 53%);
+  --bs-btn-hover-border-color: hsl(25, 97%, 53%);
+}
+
+.group{
+  width: 100%;
+}
+
+
+.submit{
+  background-color:hsl(25, 97%, 53%);
+  border-color: hsl(25, 97%, 53%);
+  color:hsl(0, 0%, 100%);
+  margin-top: 20px;
+  width: 100%;
+}
+
+.submit{
+  --bs-btn-hover-color: hsl(25, 97%, 53%);
+  --bs-btn-hover-bg: hsl(0, 0%, 100%);
+  --bs-btn-hover-border-color: hsl(0, 0%, 100%);
+}
+
+.sbm{
+  display: flex;
+  justify-content: center;
+}
+
+/*ThankYou*/
+
+.thankyou{
+  width: 50%;
+  justify-content: center;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.selected{
+  color: hsl(25, 97%, 53%);
+  padding-top: 10px;
+  text-align: center;
+  margin: auto;
+  background-color: hsl(210deg 19% 18%);
+  border-style: none;
+  width: 93%;
+  height: 40px;
+  border-radius: 60px;
+
+}
+
+.thank{
+  color: hsl(0, 0%, 100%);
+  justify-content: center;
+  margin: auto;
+  font-size: 25px;
+}
+
+.thankText{
+  text-align: center;
+}
